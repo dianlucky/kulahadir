@@ -9,6 +9,7 @@ function App() {
       <div className="container mx-auto px-4 py-10">
         <div className="mx-8 grid grid-cols-1 gap-4 md:grid-cols-2">
           <Button>Connect to database</Button>
+          <Button className="bg-red-600">Tailwind button</Button>
           <div>
             <Slider
               value={value}
